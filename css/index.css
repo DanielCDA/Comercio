@@ -81,21 +81,42 @@ h3 {
   justify-content: center;
   gap: 20px;
   padding: 20px;
-
  
 }
-
-
- .calsado img {
-  padding: 0 0px;
+.calsados img {
   align-items: inherit;
   align-items: center;
-  width: 20%;
-  height: 30%;
-  margin:  19px ;
+  width: 310px;
+  height: 310px;
+  margin: 19px ;
   box-shadow: 8px 8px 8px 8px #0000005e;
-  
 }
+.calsados img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.camisas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.camisas img {
+  align-items: inherit;
+  align-items: center;
+  width: 310px;
+  height: 310px;
+  margin: 19px ;
+  box-shadow: 8px 8px 8px 8px #0000005e;
+}
+.camisas img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
 
 #botao {
   background-color: #007bff;
