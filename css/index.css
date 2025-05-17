@@ -116,18 +116,44 @@ h3 {
 
 .contatos
 {
-  
+  padding: 40px;
   background-color: #ffff;
 }
 .item
 {
   display: flex;
-
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin: 10px 0;
+  
 }
 .contatos h1{
-  padding: 0 20px;
+  padding: 40px;
 
 }
+
+.item img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+.meu-botao {
+  padding: 10px 20px;
+  background-color:#ffffff;
+  color: black;
+  width: 300PX;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.meu-botao:hover {
+  background-color: black;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+
 
 
 
