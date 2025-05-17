@@ -75,7 +75,7 @@ h3 {
 .container-produtos {
   
 }
-.calsados, .camisas {
+.calsados, .camisas .bolsa {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -83,7 +83,7 @@ h3 {
   padding: 20px;
  
 }
-.calsados img, .camisas img {
+.calsados img, .camisas img, .bolsa img {
   align-items: inherit;
   align-items: center;
   width: 310px;
@@ -92,7 +92,8 @@ h3 {
   box-shadow: 8px 8px 8px 8px #0000005e;
 }
 .calsados img:hover,
-.camisas img:hover {
+.camisas img:hover,
+.bolsa img:hover {
   transform: scale(1.05);
   transition: transform 0.3s;
 }
@@ -106,6 +107,9 @@ h3 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+
+/* PARACEIROS */
 
 
 
