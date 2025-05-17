@@ -112,6 +112,47 @@ h3 {
 /* PARACEIROS */
 
 
+/*contatos*/
+
+.contatos
+{
+  
+  background-color: #ffff;
+}
+.item
+{
+  display: flex;
+
+}
+.contatos h1{
+  padding: 0 20px;
+
+}
+
+
+
+#social, .fa-facebook
+{
+    margin-left: 30px;
+    font-size: 2em;
+    color: rgb(21, 34, 205);
+}
+#social, .fa-instagram
+{
+    margin-left: 30px;
+    font-size: 2em;
+    color: rgb(130, 37, 37);
+}
+#social, .fa-square-twitter
+{
+    margin-left: 10px;
+    font-size: 2em;
+    color: rgb(21, 34, 205);
+}
+#social i:hover{
+    transform: scale(1.4px);
+    color: #3381f3;
+}
 
 video {
   width: 50%;
@@ -124,13 +165,4 @@ video {
 
 
 
-
-
-.container-rodape {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 10px;
-  background-color: #f8f9fa;
-}
 
