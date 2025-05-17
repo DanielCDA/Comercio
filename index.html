@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+        <header class="container-cabecalho">
+           <img src="img/logo boutique.png" alt="logo impresa" width="8%">
+            
+            <nav class="container-navegador">
+                <a href="#">Home</a>
+                <a href="#">Nossos Serviços</a>
+                <a href="#">Parceiros</a>
+                <a href="#">Contactos</a>
+            </nav>
+            <div class="container-busca">
+                <input type="text" name="" id="" placeholder="Pesquisar...">
+                <button>Pesquisar</button>
+        </header>
+        <!--navegacao-->
+        
+
+
+        <img id="slide" src="img/BDA/masculino/moda.jpg" alt="Carrossel" width="100%" height="auto" style="margin-top: 0px; margin-bottom: 0px; border-radius: 10px;">
+
+    <script>
+        // Lista das imagens
+        var imagens = ["img/BDA/masculino/elegante.jpg", "img/BDA/masculino/moda.jpg", "img/BDA/masculino/new.png", "img/BDA/masculino/sport.jpg"];
+        var indice = 0; // Começa na primeira imagem
+
+        function trocarImagem() {
+            indice = (indice + 1) % imagens.length; // Avança e reinicia ao fim
+            document.getElementById("slide").src = imagens[indice];
+        }
+
+        // Troca a cada 3 segundos (3000 milissegundos)
+        setInterval(trocarImagem, 3000);
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+         <!--corpo-->
+        <section class="container-produtos">
+            <h2>SUGESTÕES BDA PARA HOMENS</h2>
+            
+            <div class="produtos-masculino">
+                <div class="calsados">
+                    <!-- <video controls autoplay muted  src="img/BDA/masculino/v.mp4" controls loop></video> -->
+                    <div id="imagens">
+                        
+                        <a href="#"><img src="img/BDA/masculino/4.png" alt="" srcset="" width="20%"></a>           
+                        <a href="#"><img src="img/BDA/masculino/10.png" alt="" srcset="" width="20%"></a>
+                        <a href="#"><img src="img/BDA/masculino/5.png" alt="" srcset="" width="20%"></a>
+                        <a href="#"><img src="img/BDA/masculino/8.png" alt="" srcset="" width="20%"></a>
+                        <a href="#"><img src="img/BDA/masculino/13.png" alt="" srcset="" width="20%"></a>
+                        <a href="#"><img src="img/BDA/masculino/18.png" alt="" srcset="" width="20%"></a>    
+                    </div>
+                    <a href="#" id="botao">Calsados</a>
+                </div>          
+                
+                <div class="camisas">
+                    <div></div>
+                        <img src="img/BDA/camisa/1.png" alt="" srcset="" width="20%" height="20%   " >                          <img src="img/BDA/camisa/2.png" alt="" srcset="" width="20%"    height="20%">
+                        <img src="img/BDA/camisa/3.png" alt="" srcset="" width="20%" height="20%">
+                        <img src="img/BDA/camisa/4.png" alt="" srcset="" width="20%" height="20%">          
+                </div>
+                <a href="#" id="botao">Roupas</a>
+            </div>
+            
+            <h2>SUGESTÕES BDA MULHERES</h2>
+        
+            <!--<video src="img/BDA/femenino/v.mp4" controls loop> </video>-->
+            <div class="calsados">
+                    <img src="img/BDA/femenino/2.png" alt="" srcset="" width="20%">
+                    <img src="img/BDA/femenino/3.png" alt="" srcset="" width="20%">
+                    <img src="img/BDA/femenino/11.png" alt="" srcset="" width="20%">
+                    <img src="img/BDA/femenino/12.png" alt="" srcset="" width="20%">
+                    <img src="img/BDA/femenino/14.png" alt="" srcset="" width="20%">
+                    <img src="img/BDA/femenino/30.png" alt="" srcset="" width="20%">    
+            </div> 
+                    <a href="#" id="botao">Calsados</a> 
+           
+            
+            <div class="bolsa">
+                
+                <div class="imagens">
+                    
+                    <img src="img/BDA/bolsa/31.png" alt="" srcset="" width="20%">
+                    <img src="img/BDA/bolsa/bolsa.jpg" alt="" srcset="" width="20%">
+                    <img src="img/BDA/bolsa/bolsa3.jpg" alt="" srcset="" width="20%">
+                    <img src="img/BDA/bolsa/bolsa4.jpg" alt="" srcset="" width="20%">
+                </div> 
+                <a href="#" id="botao">Bolsas</a>           
+            </div>
+
+        
+        </section>
+     
+    
+        <section>
+            <div class="parceiros">
+                <h1>Parcéiros</h1>
+                <div class="sublinhado"></div>
+                <p>Banksline</p>
+                <img src="img/ideias.jpg" alt="pareceiros" width="15%">
+                <img src="img/ideias.jpg" alt="pareceiros" width="15%">
+                <img src="img/ideias.jpg" alt="pareceiros" width="15%">
+                
+            </div>
+        </section>
+    
+        <!--Contactos-->
+        <section class="contatos">
+            <div>
+                <h1>CONTATOS</h1>
+                
+                <div>
+                    <h3>Endreço:</h3>
+                    <p>Angola, Luanda, Bita-Sapú, Somag</p>
+                </div>
+    
+                <div>
+                    <h3>Telefone:</h3>
+                    <p>(+244) 935 090 982</p>
+                </div>
+
+                <div>
+                    <h3>email:</h3>
+                    <p>danielagostinho@gmail.com</p>
+                </div>
+    
+                <div>
+                    <h3>Fale conosco:</h3>
+                    <P>Lorem ipsum dolor sit amet consectetur.
+                        Quae sed repellat beatae illum consectetur!
+                        Cum obcaecati eveniet totam dolores aliquam.
+                    </P>                
+                    <div>
+                        <form action="">
+                            <div>
+                                <input type="text" name="nome" id="" required placeholder="nome">
+                            </div>
+                            <div>
+                                <input type="email" name="" id="" required placeholder="email">    
+                            </div>
+                            <div>
+                                <input type="text" name="" id="" required placeholder="telefone" minlength="9" maxlength="9">
+                            </div>
+                            <div>
+                              <textarea rows="7" cols="30" placeholder="Digite a sua mensagem aqui..."></textarea>  
+                            </div>
+                            <div>
+                                <input type="submit" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+               </div>
+            </div> 
+        </section>
+    
+        <!--Rodape-->
+       <footer class="container-rodape">
+
+            <div>
+                <p>Consultoria BDA &copy; 2030 &reg; todos os direitos reservadios</p>
+            </div>
+
+            <div>
+                <a href="http://facebook.com"></a>
+                <a href="http://WhastsApp.com"></a>
+                <a href="http://instagram.com"></a>
+            </div>
+       </footer>
+
+    </body>
+</html>
