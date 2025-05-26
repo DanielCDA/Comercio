@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="fontawesome-free-6.5.2-web/icone/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Document</title>
     <link rel="stylesheet" href="css/index.css">
     
@@ -13,10 +14,10 @@
            <img src="img/logo boutique.png" alt="logo impresa" width="8%">
             
             <nav class="container-navegador">
-                <a href="#">Home</a>
-                <a href="#">Nossos Serviços</a>
+                <a href="#">Homem</a>
+                <a href="#">Mulher</a>
                 <a href="#">Parceiros</a>
-                <a href="#">Contactos</a>
+                <a href="#">Subscrever</a>
             </nav>
             <div class="container-busca">
                 <input type="text" name="" id="" placeholder="Pesquisar...">
@@ -30,7 +31,7 @@
         <!--<video src="img/BDA/femenino/v.mp4" controls loop> </video>-->
     <script>
         // Lista das imagens
-        var imagens = ["img/BDA/masculino/elegante.jpg", "img/BDA/masculino/moda.jpg", "img/BDA/masculino/new.png", "img/BDA/masculino/sport.jpg"];
+        var imagens = ["img/BDA/masculino/elegante.jpg", "img/BDA/masculino/moda.jpg", "img/BDA/masculino/sport.jpg"];
         var indice = 0; // Começa na primeira imagem
 
         function trocarImagem() {
@@ -64,9 +65,12 @@
                         <a href="#"><img src="img/BDA/masculino/4.png" alt="" srcset="" ></a>           
                         <a href="#"><img src="img/BDA/masculino/10.png" alt="" srcset=""></a>
                         <a href="#"><img src="img/BDA/masculino/13.png" alt="" srcset=""></a>
-                        <a href="#"><img src="img/BDA/masculino/18.png" alt="" srcset=""></a>    
+                        <a href="#"><img src="img/BDA/masculino/18.png" alt="" srcset=""></a>
+                        <a href="#"><img src="img/BDA/masculino/26.png" alt="" srcset=""></a>
+            
                     </div>
-                    <a href="#" id="botao">Calsados</a>
+                    
+                    <a href="#" ><button id="botao"> Calsados </button></a>
                 </div>          
                 
                 <div class="camisas">
@@ -74,24 +78,31 @@
                         <img src="img/BDA/camisa/1.png" alt="" srcset="" > 
                         <img src="img/BDA/camisa/2.png" alt="" srcset="">
                         <img src="img/BDA/camisa/3.png" alt="" srcset="" >
-                        <img src="img/BDA/camisa/4.png" alt="" srcset="" >   
-                    </div>                  </div>
-                <div style="text-align: center;"><a href="#" id="botao">Roupas</a></div>
+                        <img src="img/BDA/camisa/4.png" alt="" srcset="" >
+                        <img src="img/BDA/camisa/3.png" alt="" srcset="" >   
+                    </div>        
+                    <div style="text-align: center;"><a href="#" ><button id="botao"> Roupas </button></a></div>          
+                </div>
+               
                 
                 
             </div>
             
             <h2>SUGESTÕES BDA MULHERES</h2>
             <div class="produtos-femenios">
-                 
-                <div class="calsados">
-                    <img src="img/BDA/femenino/2.png" alt="" srcset="">
-                    <img src="img/BDA/femenino/3.png" alt="" srcset="">
-                    <img src="img/BDA/femenino/11.png" alt="" srcset="">
-                    <img src="img/BDA/femenino/14.png" alt="" srcset="">
-                </div> 
-                <div style="text-align: center;"><a href="#" id="botao">Calsados</a></div>
-       
+                
+                <div>
+                    <div class="calsados">
+                        <img src="img/BDA/femenino/2.png" alt="" srcset="">
+                        <img src="img/BDA/femenino/3.png" alt="" srcset="">
+                        <img src="img/BDA/femenino/11.png" alt="" srcset="">
+                        <img src="img/BDA/femenino/14.png" alt="" srcset="">
+                        <img src="img/BDA/femenino/5.png" alt="" srcset="">
+                    </div> 
+                    <div style="text-align: center;"><a href="#" ><button id="botao"> Calsados </button></a></div>
+
+                </div>
+                    
         
                 <div class="bolsa">
                     <div class="imagens">
@@ -99,8 +110,9 @@
                         <img src="img/BDA/bolsa/bolsa.jpg" alt="" srcset="">
                         <img src="img/BDA/bolsa/bolsa3.jpg" alt="" srcset="">
                         <img src="img/BDA/bolsa/bolsa4.jpg" alt="" srcset="">
+                        <img src="img/BDA/bolsa/bolsa3.jpg" alt="" srcset="">
                     </div> 
-                    <div style="text-align: center;"><a href="#" id="botao">Bolsa</a></div>           
+                    <div style="text-align: center;"><a href="#" ><button id="botao"> Bolsas </button></a></div>           
                 </div>
             </div >
         
@@ -112,15 +124,41 @@
     
         <section>
             <div class="parceiros">
-                <div><h1>Parcéiros</h1></div>
+                <div>
+                    <h2>Parcéiros</h2>
+                </div>
                 <img src="img/parceiro.jpg" alt="Imagem Centralizada" style="display: block; margin: 0 auto; width: 25%; height: auto; border-radius: 10px;">
             </div>
+        </section>
+
+         <!--Subscrever-->
+        <section>
+            <div class="modal-overlay" id="modalOverlay">
+                <div class="modal-content">
+                    <button class="close-button" id="closeModalButton">
+                        <i class="fas fa-times"></i>
+                    </button>
+
+                    <img src="img/logo boutique.png" alt="Logo Boutique" width="50%">
+                    <h2>Subscrever</h2>
+                    <p>Introduz o teu endereço de e-mail para descobrires novas coleções, colaborações empolgantes e as tendências mais recentes, à medida que acontecem.</p>
+
+                    <form>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                            <p class="error-message" id="emailError">Introduz um endereço de e-mail</p>
+                        </div>
+                        <button type="submit" class="register-button">REGISTAR</button>
+                    </form>
+                </div>
+            </div>    
         </section>
         
     
         <!--Contactos-->
         <section class="contatos">
-            <h1>BOLETIM INFORMATIVO</h1>
+            <h2>BOLETIM INFORMATIVO</h2>
             <div class="item">
                     <div class="dizer">
                         <div>
@@ -143,7 +181,8 @@
                     <img src="img/logo boutique.png" alt="" width="50%">
                     <p>Receba nossa newsletter e descubra nossas histórias, coleções e surpresas.</p>
                     <div>
-                        <button type="iscreva-se" class="meu-botao">ISCREVER-SE</button>
+                        <button type="iscreva-se" id="openModalButton" class="subscribe-button">Subscrever</button>
+                
                     </div>
                 </div>
                 <div id="social">
@@ -173,5 +212,50 @@
             </div>
        </footer>
 
+
+       <script>
+        // Elementos do DOM
+        const openModalButton = document.getElementById('openModalButton');
+        const closeModalButton = document.getElementById('closeModalButton');
+        const modalOverlay = document.getElementById('modalOverlay');
+        const emailInput = document.getElementById('email');
+        const emailError = document.getElementById('emailError');
+        const registrationForm = document.querySelector('form');
+
+        // Função para abrir o modal
+        openModalButton.addEventListener('click', function() {
+            modalOverlay.style.display = 'flex'; // Altera para 'flex' para exibir o modal centralizado
+        });
+
+        // Função para fechar o modal
+        closeModalButton.addEventListener('click', function() {
+            modalOverlay.style.display = 'none'; // Define para 'none' para esconder
+        });
+
+        // Fechar o modal clicando fora dele
+        modalOverlay.addEventListener('click', function(event) {
+            // Verifica se o clique foi diretamente no overlay (e não no conteúdo do modal)
+            if (event.target === modalOverlay) {
+                modalOverlay.style.display = 'none';
+            }
+        });
+
+        // Simples validação de e-mail no envio do formulário
+        registrationForm.addEventListener('submit', function(event) {
+            if (!emailInput.value.includes('@') || !emailInput.value.includes('.')) {
+                emailError.style.display = 'block';
+                emailInput.style.borderColor = 'red';
+                event.preventDefault(); // Impede o envio do formulário
+            } else {
+                emailError.style.display = 'none';
+                emailInput.style.borderColor = '#ccc'; // Resetar a cor da borda
+                alert('Formulário enviado com sucesso!');
+                modalOverlay.style.display = 'none'; // Fechar o modal após o "envio"
+                event.preventDefault(); // Para evitar o recarregamento da página na demonstração
+            }
+        });
+    </script>
     </body>
+
+
 </html>
